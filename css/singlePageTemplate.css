@@ -75,6 +75,12 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+.text-center {
+	text-align: center;
+}
+h2{
+	font-size: 40pt;
+}
 /*animation header*/
 .animation {
 	background-color: #B3B3B3;
@@ -262,7 +268,8 @@ ul li:hover a {
 }
 img {
 	max-width: 100%;
-}
+	align-content: center;
+} 
 .gallery {
 	clear: both;
 	display: inline-block;
@@ -349,6 +356,9 @@ footer .footer_column p {
 .cards {
 	width: 90%;
 	height: auto;
+}
+img.cards {
+	width: auto;
 }
 footer .footer_column p {
 	padding-left: 30px;
